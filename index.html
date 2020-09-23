@@ -11,17 +11,76 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+
+    <script
+      src="https://kit.fontawesome.com/1e4b6b9fc4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="container" style="width: 20%; margin-top: 50px">
-      <h1 style="text-align: center">Movie Tracker</h1>
-      <hr />
-      <h4>Director: Charlie Kaufman</h4>
-      <ol>
-        <li>Being John Malkovich (1999)</li>
-        <li>Eternal Sunshine of the Spotless Mind (2004)</li>
-        <li>Anomalisa (2015)</li>
-      </ol>
+    <div class="container" style="margin-top: 30px">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>Next Up</h2>
+          <hr />
+          <table class="table table-sm table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Director</th>
+                <th scope="col" style="text-align: center">Year</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Being John Malkovich</td>
+                <td>Charlie Kaufman</td>
+                <td style="text-align: center">1999</td>
+              </tr>
+              <tr>
+                <td>Eternal Sunshine of the Spotless Mind</td>
+                <td>Charlie Kaufman</td>
+                <td style="text-align: center">2004</td>
+              </tr>
+              <tr>
+                <td>Anomalisa</td>
+                <td>Charlie Kaufman</td>
+                <td style="text-align: center">2015</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-sm-6">
+          <h2>Watched</h2>
+          <hr />
+          <table class="table table-sm table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Title</th>
+                <th scope="col">Director</th>
+                <th scope="col" style="text-align: center">Year</th>
+                <th scope="col" style="text-align: center">
+                  Josh <i class="fas fa-star"></i>
+                </th>
+                <th scope="col" style="text-align: center">
+                  Kenny <i class="fas fa-star"></i>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2020-09-19</td>
+                <td>Casino</td>
+                <td>Martin Scorsese</td>
+                <td style="text-align: center">1995</td>
+                <td class="table-success" style="text-align: center">8</td>
+                <td class="table-success" style="text-align: center">9</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
 
     <script
